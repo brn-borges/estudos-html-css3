@@ -1,0 +1,18 @@
+@charset "UFT-8";
+/*  em Html é id = em css é #
+    em Html é class = em css é .
+*/
+body{
+    background-color: rgb(114, 190, 114);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: grey;
+}
+h1#principal{
+    text-align: center;
+    background-color: lavender;
+}
+h2{
+    color: rgb(10, 80, 62);
+}
