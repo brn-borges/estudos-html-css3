@@ -1,6 +1,6 @@
 @charset "UFT-8";
-/*  em Html é id = em css é #
-    em Html é class = em css é .
+/*  em Html é id = em css é # (so pode um elemento)
+    em Html é class = em css é . (pode varios elementos)
 */
 body{
     background-color: rgb(114, 190, 114);
@@ -15,4 +15,16 @@ h1#principal{
 }
 h2{
     color: rgb(10, 80, 62);
+}
+.basico{
+    color: green;
+}
+.intermediario{
+    color: yellow;
+}
+.avancado{
+    color: red;
+}
+.destaque{
+    background-color: yellow;
 }
