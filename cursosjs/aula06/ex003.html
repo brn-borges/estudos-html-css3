@@ -7,12 +7,12 @@
     <title>Meu primeiro programa...</title>
     <style>
         body{
-            background-color: rgb(134, 134, 150);
-            color: white;
+            background-color: #65C4E1;
+            color: #1A88A8;
             font: normal 20pt Arial;
         }
         h1{
-            color: rgb(236, 35, 0);
+            color: #29505C;
         }
     </style>
 </head>
@@ -20,10 +20,13 @@
     <h1>Olá, mundo!</h1>
     <p>Já me livrei da maldição</p>
     <script>
-        /*window.alert('Minha primeira mensagem!')
-        window.confirm('Está gostando de JS?')
-        */
-        window.prompt('Qual é seu nome?')
+        var n1 = Number.parseInt(window.prompt('Digite um número: '))
+        var n2 = Number.parseInt(window.prompt('Digite outro número: '))
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) // Concatenação 
+        // adição + ex  = number + number
+        // concatenação + ex = string + string
+
     </script>
 </body>
 </html>
