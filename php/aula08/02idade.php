@@ -13,7 +13,7 @@
     $sexo = $_GET["sexo"];
     $idade = date("Y") - $ano;
 
-    echo "$nome e $sexo tem $idade anos."
+    echo "$nome e $sexo e tem $idade anos."
   ?>
 </body>
 </html>
